@@ -106,9 +106,8 @@
   gap: 32px;
   position: absolute;
   max-width: 564px;
-  height: 448px;
   right: 140px;
-  top: 181px;
+  top: 166px;
   background: #FFFFFF;
   box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
   border-radius: 16px;
@@ -342,7 +341,10 @@
 }
 
 .welcome {
-  height: 102px;
+  height: 66px;
+  @media screen and (max-width: 600px){
+    height: 100%;
+  }
 }
 
 .thirdSection {
